@@ -2,41 +2,13 @@
     outline: none !important;
 }
 
- :host {
+:host {
     scroll-behavior: smooth;
 }
 
 .btn-link {
-    color: #007bff;
-    text-decoration: none;
-}
-
-:host(.link-button){
-  width: 100%;
-}
-
-:host(.link-button) div.psk-link{
-  width: 100%;
-}
-
-:host(.link-button) stencil-route-link{
-  display: flex;
-}
-
-:host(.link-button) stencil-route-link a{
-  width: 100%;
-}
-
-:host(.link-button) stencil-route-link a:hover{
-  color: #ffffff;
-}
-
-:host(.link-button) .btn-link{
-  width: 100%;
-}
-
-:host(.link-button):hover .btn-link:hover {
-  color:#FFF;
+    color: #3a3b41;
+    text-decoration: underline;
 }
 
 .btn-link:focus,
@@ -44,7 +16,7 @@
 .btn-link:hover {
     padding: 0;
     cursor: pointer;
-    color: #0056b3
+    color: #e9510e
 }
 
 .btn-link.invalid-url:hover,
@@ -56,7 +28,7 @@
     transition: color .5s ease-in;
 }
 
- :host {
+:host {
     display: inline-block;
     font-family: nunito;
     position: relative;
@@ -85,8 +57,9 @@
     top: 100%;
     left: 50%;
     margin-left: -5px;
-    border: 5px solid transparent;
-    border-top-color: #555;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
 }
 
 .psk-link:hover .tooltip-error {

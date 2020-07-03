@@ -16,7 +16,7 @@
 .btn-link:hover {
     padding: 0;
     cursor: pointer;
-    color: #e9510e
+    color: #4C71DE
 }
 
 .btn-link.invalid-url:hover,

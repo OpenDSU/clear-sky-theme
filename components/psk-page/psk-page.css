@@ -57,6 +57,12 @@
   display: none;
 }
 
+:host(.no-title) .page-content,
+:host(.no-title) .main-container,
+:host(.no-title) .container-content{
+  height: 100%;
+}
+
 @media (min-width: 1367px) {
   .toc + .container {
     max-width: calc(100% - 25rem );

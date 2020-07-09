@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/privatesky/clear-sky-theme/issues"
   },
-  "dependencies": {
-    "octopus": "git+http://github.com/privatesky/octopus.git#1.0.4"
-  },
   "homepage": "https://github.com/privatesky/clear-sky-theme#readme"
 }

@@ -4,7 +4,7 @@
   "description": "",
   "main": " ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-dossier": "node ./bin/build_dossier.js"
   },
   "repository": {
     "type": "git",
@@ -14,6 +14,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/privatesky/clear-sky-theme/issues"
+  },
+  "dependencies": {
+    "octopus": "git+http://github.com/privatesky/octopus.git#1.0.4"
   },
   "homepage": "https://github.com/privatesky/clear-sky-theme#readme"
 }

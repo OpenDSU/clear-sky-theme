@@ -122,9 +122,4 @@
 
 ::slotted([slot='options']) {
     display: grid;
-
-}
-
-::slotted([slot='options']) psk-button-link div {
-    color: red;
 }

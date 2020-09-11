@@ -1,12 +1,14 @@
 .mobile {
     position: relative;
     min-height: 100vh;
+    overflow-y: auto;
+    background-color: #EEEEEE;
 }
 
 .mobile > header {
     position: relative;
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto auto 1fr 50px;
     height: 4rem;
     place-items: center;
     padding: 0 8px;
@@ -15,7 +17,7 @@
 
 .mobile > header > .title {
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #FFFFFF;
 }
 
@@ -59,7 +61,26 @@
     background-color: #5E7FE1;
 }
 
-::slotted([slot='footer']){
+.mobile > footer > a {
+    display: grid;
+    padding: 0.75rem 1rem;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    place-items: center;
+}
+
+.mobile > footer > a .icon {
+    padding: 0; margin: 0;
+}
+
+.mobile > footer > a .icon,
+.mobile > footer > a span {
+    color: #FFFFFF;
+}
+
+::slotted([slot='footer']) {
     display: flex;
     justify-content: space-between;
 }
@@ -67,7 +88,6 @@
 .options-menu, .aside-menu {
     position: absolute;
     top: 100%;
-    z-index: 9;
 }
 
 .aside-menu {
@@ -76,6 +96,7 @@
     background-color: #4461B5;
     display: grid;
     align-content: flex-start;
+    z-index: 9;
 }
 
 .aside-menu::after {
@@ -88,4 +109,22 @@
 
 .aside-menu .wrapper_container {
     width: 100%;
+}
+
+.options-menu {
+    display: grid;
+    right: 0;
+    min-width: 200px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+    z-index: 8;
+}
+
+::slotted([slot='options']) {
+    display: grid;
+
+}
+
+::slotted([slot='options']) psk-button-link div {
+    color: red;
 }

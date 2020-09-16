@@ -1,18 +1,7 @@
 :host {
     cursor: pointer;
-    user-select: none;
-}
-
-.summary {
-    display: flex;
-    align-items: center;
 }
 
 .summary .icon {
-    margin-left: 0;
-    padding-left: 0;
-}
-
-.content {
-    margin-bottom: 1rem;
+    color: #4461B5;
 }

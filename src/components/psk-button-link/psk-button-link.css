@@ -1,4 +1,6 @@
-[slot='options'] psk-link > * {
+[slot='options'] psk-link,
+[slot='options'] psk-link *,
+[slot='options'] psk-link .icon {
     color: #4461B5;
     font-weight: bold;
 }

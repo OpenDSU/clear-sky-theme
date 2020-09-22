@@ -5,7 +5,8 @@
     overflow: auto;
 }
 
-.table-of-content .psk-card .card-body, .table-of-content .psk-card .card-header {
+.table-of-content .psk-card .card-body,
+.table-of-content .psk-card .card-header {
     padding-left: 0;
     padding-right: 40px;
 }
@@ -51,7 +52,7 @@
 
 .table-of-content .psk-card li.active::before {
     content: "";
-  background-image:url(/themes/default/images/hand-point.svg);
+    background-image: url(/themes/clear-sky-theme/images/hand-point.svg);
     background-size: 100% 100%;
     display: inline-block;
     height: 20px;
@@ -68,6 +69,7 @@
     color: #354F9B;
 }
 
+
 /* bold only on arrow */
 
 .table-of-content .psk-card li.active li {
@@ -80,9 +82,10 @@
         margin: 0 auto;
         padding-bottom: 0;
         height: auto;
-        width:auto;
+        width: auto;
     }
-    .table-of-content .card-body>ul>li:first-of-type::before, .table-of-content .card-body>ul li.current_view {
+    .table-of-content .card-body>ul>li:first-of-type::before,
+    .table-of-content .card-body>ul li.current_view {
         display: none;
     }
 }
@@ -92,12 +95,12 @@
         position: relative;
         margin: 0 auto;
         top: 0;
-        width:auto;
+        width: auto;
     }
-    .table-of-content .card-body>ul>li:first-of-type::before, .table-of-content .card-body>ul li.current_view {
+    .table-of-content .card-body>ul>li:first-of-type::before,
+    .table-of-content .card-body>ul li.current_view {
         display: none;
     }
-
     .table-of-content .card-body span {
         font-size: 0.875rem;
     }

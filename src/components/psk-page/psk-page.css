@@ -30,10 +30,6 @@
     max-width: 100%;
 }
 
-.page-content .toc+.container {
-    max-width: inherit;
-}
-
 .toc {
     flex: 1;
     order: 2;

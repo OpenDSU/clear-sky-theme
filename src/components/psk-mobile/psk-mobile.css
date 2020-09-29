@@ -1,2 +1,5 @@
 /* Use mode="layout" for psk-mobile, if you want to style anything from component children */
 /* Use mode="default" with !important specifier if you want to override defaults from (Cardinal) styles/imports/colors.css */
+:host(.pdfViewer) main {
+    padding: 0!important;
+}

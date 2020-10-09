@@ -6,7 +6,7 @@
 }
 
 :host(.fullHeightWithFooter) main {
-    height: calc(100vh - 8rem)!important;
+    height: calc(100vh - 14rem)!important;
 }
 
 :host(.fullHeightWithoutFooter) main {
